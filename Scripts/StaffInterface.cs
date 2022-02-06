@@ -12,10 +12,10 @@ public class Item
     public string id { get; set; }
     public string name { get; set; }
 
-    //public string categories { get; set; }
+    //public string categories { get; set; }  // omitted fields for now
     public string description { get; set; }
-    //public string image { get; set; }
-    //public string url { get; set; }
+    //public string image { get; set; }  // omitted fields for now
+    //public string url { get; set; }  // omitted fields for now
     public string shelfID { get; set; }
     public string horiIndex { get; set; }
 
@@ -24,9 +24,9 @@ public class Item
 public class StaffInterface : MonoBehaviour
 {
     // Start is called before the first frame update
-
     void Start()
     {
+        // test code for Item creation
         //Item newItem = new Item()
         //{
         //    id = "123",
@@ -54,33 +54,30 @@ public class StaffInterface : MonoBehaviour
         string jsonString = File.ReadAllText(jsonPath);
         List<Item> list = JsonConvert.DeserializeObject<List<Item>>(jsonString);
         List<Item> NewList = new List<Item>();
-        foreach (Item item in list)
+        foreach (Item item in list)  // delete all with same ID
+                                     // -> although it's not reasonable to have same ID, it's not impossible
         {
             if (!item.id.Equals(itemID))
             {
                 NewList.Add(item);
-                
-                //break;
             }
         }
         var convertedJson = JsonConvert.SerializeObject(NewList, Formatting.Indented);
-        File.WriteAllText(jsonPath, convertedJson);  // added
+        File.WriteAllText(jsonPath, convertedJson);
         Debug.Log(convertedJson.ToString());
     }
 
 
     void AddNewItem(Item newItem)
     {
-
         string jsonPath = "Assets/StreamingAssets/databaseItems.json";
         string jsonString = File.ReadAllText(jsonPath);
         var list = JsonConvert.DeserializeObject<List<Item>>(jsonString);
 
         list.Add(newItem);
         var convertedJson = JsonConvert.SerializeObject(list, Formatting.Indented);
-        File.WriteAllText(jsonPath, convertedJson);  // added
+        File.WriteAllText(jsonPath, convertedJson);
         Debug.Log(convertedJson.ToString());
-
     }
 
     public void CreateItemAndAdd()
@@ -98,10 +95,7 @@ public class StaffInterface : MonoBehaviour
             {
                 id = ID,
                 name = Name,
-                //categories = "23",
                 description = Description,
-                //image = "",
-                //url = "",
                 shelfID = ShelfID,
                 horiIndex = HoriIndex
             };
@@ -109,7 +103,6 @@ public class StaffInterface : MonoBehaviour
             AddNewItem(newItem);
             Debug.Log("New Item added into database");
         }
-        
     }
 
     public void DeleteItemClicked()
