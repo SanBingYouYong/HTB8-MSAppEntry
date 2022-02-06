@@ -1,0 +1,30 @@
+[
+  {
+    "id": "P60371466",
+    "name": "Lace-Up Trainers",
+    "description": "Step out in style with these smart leather-look trainers. Round-toe design with a contrast sole. Lace-up fastening. Made with vegan-friendly materials.",
+    "shelfID": "B03",
+    "horiIndex": "7"
+  },
+  {
+    "id": "P12348969",
+    "name": "Random Placeholder Sock Item",
+    "description": "You should not see this description anyway, or maybe you could",
+    "shelfID": "C02",
+    "horiIndex": "5"
+  },
+  {
+    "id": "P01",
+    "name": "P01P01",
+    "description": "000000000000000000",
+    "shelfID": "B03",
+    "horiIndex": "3"
+  },
+  {
+    "id": "P02",
+    "name": "P02 Shoe",
+    "description": "ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "shelfID": "C04",
+    "horiIndex": "4"
+  }
+]

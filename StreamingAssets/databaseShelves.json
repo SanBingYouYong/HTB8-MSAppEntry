@@ -1,0 +1,47 @@
+{
+  "shelves": [
+    {
+      "id": "A01",
+      "ShelfPartition": 12
+
+    },
+    {
+      "id": "A02",
+      "ShelfPartition": 8
+    },
+    {
+      "id": "A03",
+      "ShelfPartition": 16
+    },
+    {
+      "id": "B01",
+      "ShelfPartition": 12
+
+    },
+    {
+      "id": "B02",
+      "ShelfPartition": 8
+    },
+    {
+      "id": "B03",
+      "ShelfPartition": 16
+    },
+    {
+      "id": "C01",
+      "ShelfPartition": 12
+
+    },
+    {
+      "id": "C02",
+      "ShelfPartition": 8
+    },
+    {
+      "id": "C03",
+      "ShelfPartition": 16
+    },
+    {
+      "id": "C04",
+      "ShelfPartition": 16
+    }
+  ]
+}

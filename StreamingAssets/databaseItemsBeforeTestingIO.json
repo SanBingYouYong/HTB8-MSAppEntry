@@ -1,0 +1,33 @@
+[
+
+        {
+            "categories": "Underwear & Socks, Socks, Percy Pig Gifts, Men's Socks",
+            "description": "These cotton-rich Percy Pig™ socks will make the perfect Christmas present. They're made with added stretch for total comfort. Gift box includes knitted and embroidered Percy Pig™ designs. All feature the Percy Pig™ logo on the soles and contrast heels and toes. \\\\n M&S Collection: easy-to-wear wardrobe staples that combine classic and contemporary styles.",
+            "id": "P60515662",
+            "image": "https://asset1.cxnmarksandspencer.com/is/image/mandstest/T10_9231_A4_IS",
+            "name": "5pk Percy Pig™ Socks Gift Box",
+            "url": "https://www.sit2.marksandspencer.com/5pk-percy-pig-socks-gift-box/p/clp60515662",
+          "ShelfID": "A01",
+            "HoriIndex": 1
+        },
+        {
+            "categories": "Men's Swimwear, Men's Summer Style, Formalwear",
+            "description": "Step out in style with these smart leather-look trainers. Round-toe design with a contrast sole. Lace-up fastening. Made with vegan-friendly materials.",
+            "id": "P60371466",
+            "image": "https://asset1.marksandspencer.com/is/image/mandstest/SD_03_T03_0035_Z0_X_EC_0",
+            "name": "Lace-Up Trainers",
+            "url": "https://www.sit2.marksandspencer.com/lace-up-trainers/p/clp60371466",
+          "ShelfID": "B03",
+            "HoriIndex": 7
+        },
+        {
+            "categories": "Random Placeholder Sock, if you see this, somebody's trolling",
+            "description": "You should not see this description anyway, or maybe you could",
+            "id": "P12348969",
+            "image": "https://asset1.marksandspencer.com/is/image/mandstest/SD_03_T03_0035_Z0_X_EC_0",
+            "name": "Random Placeholder Sock Item",
+            "url": "https://www.sit2.marksandspencer.com/lace-up-trainers/p/clp60371466",
+          "ShelfID": "C02",
+            "HoriIndex": 5
+        }
+]
